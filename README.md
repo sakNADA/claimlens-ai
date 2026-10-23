@@ -2,7 +2,6 @@
 
 An explainable, full-stack insurance claims intelligence platform built with synthetic data. ClaimLens turns claim descriptions and invoice text into structured evidence, computes transparent risk factors, retrieves relevant policy clauses with citations, and records human decisions in an audit trail.
 
-> Portfolio project by [Nada El Jebbari](https://github.com/sakNADA), designed from a 2026 Morocco Data & AI job-market scan. No real claimant, employer, or client data is included.
 
 ## Why this project exists
 
