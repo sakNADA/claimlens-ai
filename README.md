@@ -3,6 +3,16 @@
 An explainable, full-stack insurance claims intelligence platform built with synthetic data. ClaimLens turns claim descriptions and invoice text into structured evidence, computes transparent risk factors, retrieves relevant policy clauses with citations, and records human decisions in an audit trail.
 
 
+## Product preview
+
+### Explainable review queue
+
+![ClaimLens AI dashboard showing synthetic claims and explainable risk factors](docs/assets/claimlens-dashboard.png)
+
+### Interactive API
+
+![ClaimLens AI FastAPI documentation](docs/assets/claimlens-api-docs.png)
+
 ## Why this project exists
 
 Current Data/AI roles increasingly ask engineers to ship reliable products, not isolated notebooks. ClaimLens demonstrates Python, SQL data modeling, API design, RAG-style retrieval, explainability, React, Docker, automated testing, CI/CD, and production-minded documentation in one coherent business workflow.

@@ -25,6 +25,18 @@ def test_health():
     assert response.json()["status"] == "ok"
 
 
+def test_local_dashboard_origin_is_allowed():
+    response = client.options(
+        "/api/claims",
+        headers={
+            "Origin": "http://127.0.0.1:5173",
+            "Access-Control-Request-Method": "GET",
+        },
+    )
+    assert response.status_code == 200
+    assert response.headers["access-control-allow-origin"] == "http://127.0.0.1:5173"
+
+
 def test_create_low_risk_claim_and_audit():
     response = client.post("/api/claims", json=sample_claim())
     assert response.status_code == 201
