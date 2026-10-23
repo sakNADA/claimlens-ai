@@ -1,0 +1,27 @@
+{
+  "policy": "Synthetic Motor Protect Standard",
+  "version": "2026.1",
+  "notice": "Synthetic policy content for portfolio demonstration only.",
+  "clauses": [
+    {
+      "id": "COV-001",
+      "title": "Accidental collision damage",
+      "text": "The policy covers direct accidental damage to the insured vehicle caused by a collision, subject to the deductible and evidence requirements."
+    },
+    {
+      "id": "EVD-002",
+      "title": "Required claim evidence",
+      "text": "The claimant must provide an incident description, dated repair estimate or invoice, and photographs showing the damaged area. A police report is required when another party is involved."
+    },
+    {
+      "id": "EXC-003",
+      "title": "Excluded circumstances",
+      "text": "Damage caused intentionally, during an unauthorized commercial activity, or while the driver is not legally licensed is excluded from coverage."
+    },
+    {
+      "id": "PAY-004",
+      "title": "Settlement and deductible",
+      "text": "Approved repair costs are settled up to the insured value after applying the contractual deductible. Differences between the claimed amount and supporting invoices require manual review."
+    }
+  ]
+}
